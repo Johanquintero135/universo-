@@ -22,7 +22,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--color-texto);
-    background-color: #c9c9c9;
+    background-color: #70707028;
     padding: 0 30px;
     margin: 0;
 
@@ -51,7 +51,7 @@ a:hover {
 section {
     margin-bottom: 60px;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(209, 207, 207);
     border-radius: 8px;
     box-shadow: var(--sombra-suave);
 }
@@ -214,4 +214,17 @@ font-size: 1.2rem;
     margin-top: 20px;
     font-size: 0.9rem;
     color: var(--color-texto);
+}
+.contenedor-footer {
+    background-color: rgb(172, 171, 171);
+    color: #333333;
+    padding: 20px 0;
+    text-align: center;
+}
+.Imagen-espacial {
+    text-align: center;
+}
+.Imagen-espacial img {
+   display: block;
+   margin: 0 auto;
 }
